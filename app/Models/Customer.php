@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Customer extends Model
 {
-    use \Rinvex\Attributes\Traits\Attributable;
+    use \App\Traits\Attributable;
 
     protected $with = ['eav'];
 
